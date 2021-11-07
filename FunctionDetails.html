@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function</title>
+</head>
+
+<body>
+
+    <h1 id="maintag">Here Discuss about function</h1>
+
+    <div>Result</div>
+    <div id="Sum"></div>
+
+
+    <!--
+    function function_name(parameter or not)
+
+    TypeCasting { To change type  ( int to string , string to int)}
+
+    Type {int , float ,double , String , Char }
+-->
+
+    <script>
+        var a; //parseInt(prompt()) //'2' (String format) -> 2 (int)  Typecast {parseInt('2')}
+        var b; //parseInt(prompt());
+        var result;
+
+
+
+        function Ridoy(first, second) { //function er vitor za neoya hoy take parameter
+            result = (first + second) * (first + second);
+            //   document.getElementById('Sum').innerHTML = result;
+
+            console.log(first)
+            console.log(second)
+            console.log(result)
+        }
+        // Ridoy(a, b)
+        //Ridoy(2, 2)
+
+        //10, 7, 4, 1 
+
+
+        var highest_value;
+        var minusvalue
+
+        function MyForLoop(highest_value, minusvalue) {
+
+            var i;
+            for (i = highest_value; i > 0; i = i - minusvalue) {
+                //100 95 90 85 ........ 1
+
+                if (i % 2 == 0) {
+
+                    console.log(i)
+
+                }
+            }
+
+        }
+        MyForLoop(100, 5) //45 43 41 ..........1
+
+        //55 51 ........1
+    </script>
+
+
+
+
+</body>
+
+</html>
